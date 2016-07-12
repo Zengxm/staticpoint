@@ -4,7 +4,8 @@ var lineLink = "http://img.tougudashi.com/viewpoint/";
 var shareTitle = $(".point-title");
 var descContent = $(".point-content");
 var appid = '';
-
+console.log(imgUrl);
+console.log(shareTitle);
 function shareFriend() {
     WeixinJSBridge.invoke('sendAppMessage',{
         "appid": appid,
