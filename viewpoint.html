@@ -3,21 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="sharecontent" data-msg-img="http://static.tougudashi.com/img/app_icon-740d123fda.png" data-msg-title="我是标题我是标题我是标题我是标题我是标题我是标题" data-msg-content="7月8日从上海政府网获悉，下个月，我国将发射全球首颗“量子科学实验卫星”，科学实验中心即设在中国科技大学上海研究院。" data-msg-callBack="" data-line-img="http://static.tougudashi.com/img/app_icon-740d123fda.png" data-line-title="我是标题我是标题我是标题我是标题我是标题我是标题" data-line-callBack=""/>  
     <title>投顾大师 - 我是标题我是标题我是标题我是标题我是标题我是标题</title>
     <link rel="stylesheet" href="http://static.tougudashi.com/css/share-059922698a.css">
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://static.tougudashi.com/js/jquery-2.2.3.min.js"></script>
+    <script src="http://static.tougudashi.com/js/share-d41d8cd98f.js"></script>
   </head>
-
   <body class="point-body">
 <script type="text/javascript">
-alert(222);
 var imgUrl = "http://static.tougudashi.com/img/app_icon-740d123fda.png";
 var lineLink = "http://static.tougudashi.com/viewpoint/";
 var shareTitle = $(".point-title");
 var descContent = $(".point-content");
 var appid = 'wxea39b4153e270938';
-console.log(111);
-console.log(imgUrl);
+
 console.log(shareTitle);
+
 function shareFriend() {
     WeixinJSBridge.invoke('sendAppMessage',{
         "appid": appid,
@@ -85,9 +87,5 @@ document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
         <span>前瞻观点，尽在掌握！</span>
       </div>
     </div>
-
-    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-    <script src="http://static.tougudashi.com/js/jquery-2.2.3.min.js"></script>
-    <script src="http://static.tougudashi.com/js/share-d41d8cd98f.js"></script>
   </body>
 </html>
